@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Convert gregorian date to hebrew calendar</title>
+</head>
+<body class="body">
+<h1 dir="rtl" class="center" style="font-size:25px;" >ממיר תאריך לועזי לתאריך עברי</h1>
+<div class="center">
+    <form onsubmit="return false" dir="rtl" novalidate>
+        <label for="grDate">בחר תאריך לועזי </label>
+        <input type="date" id="grDate" name="grDate">
+        <input type="submit" id="dateSubmit" name="dateSubmit" value="בחר">
+    </form>
+</div>
+<div class="center">
+    <p id="hbDate"></p>
+</div>
+
+</body>
+<div>
+    <footer dir="rtl" class="bottomRight">ההמרה מתבצעת באדיבות
+        <a href="https://www.hebcal.com">www.hebcal.com</a>
+    </footer>
+</div>
+
+<script src="dateController.js"></script>
+</html>
